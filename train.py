@@ -20,7 +20,7 @@ words = []
 classes = []
 documents = []
 ignore_words = ["?", "!"]
-data_file = open("F:\\Data Science Course - IIITB\\NLP\\Chatbot\\AI Chatbot\\An-AI-Chatbot-in-Python-and-Flask-main\\intents.json").read()
+data_file = open("../ai_chatbot/intents.json").read()
 intents = json.loads(data_file)
 
 # words
